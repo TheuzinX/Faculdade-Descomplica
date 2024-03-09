@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Sua Página Web</title>
+</head>
+<body>
+
+<header class="bg-dark text-white text-center py-3">
+    <h1>Nome da Sua Página</h1>
+    <nav>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Item 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Item 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Item 3</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container mt-4">
+    <section class="mb-4">
+        <h2>Seção 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique justo eu augue commodo, vel tristique lorem malesuada.</p>
+    </section>
+
+    <section class="mb-4">
+        <h2>Seção 2</h2>
+        <p>Proin aliquet purus vel urna aliquet lacinia. Duis ut mauris vel dolor accumsan facilisis. In hac habitasse platea dictumst.</p>
+    </section>
+
+    <section>
+        <h2>Seção 3</h2>
+        <p>Nulla facilisi. Sed congue arcu non justo efficitur, a varius libero vestibulum. Quisque ut felis eu quam cursus imperdiet.</p>
+    </section>
+</div>
+
+<footer class="bg-dark text-white text-center py-2">
+    <p>&copy; <span id="anoAtual"></span> Sua Página Web</p>
+    <script>
+        document.getElementById("anoAtual").innerHTML = new Date().getFullYear();
+    </script>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
